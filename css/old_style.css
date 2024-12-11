@@ -1,0 +1,243 @@
+/** FONTS */
+/** h1 */ @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Comfortaa:wght@300..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Londrina+Sketch&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Protest+Strike&family=Roboto+Slab:wght@100..900&family=Rubik+Gemstones&family=Rubik+Maze&family=Rubik:ital,wght@0,300..900;1,300..900&family=Satisfy&display=swap');
+/**  */ @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Archivo+Black&family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Comfortaa:wght@300..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Londrina+Sketch&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Protest+Strike&family=Roboto+Slab:wght@100..900&family=Rubik+Gemstones&family=Rubik+Maze&family=Rubik:ital,wght@0,300..900;1,300..900&family=Satisfy&display=swap');
+
+h1 {
+  margin: 0 0 40px 0;
+  padding: 15px 0;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  font-size: 35px;
+  color: #653e45;
+  background-color: #C7B06D;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #3c7869;
+  background-color: #c7b06d8c;
+}
+
+p {
+  padding: 10px 5%;
+  line-height: 2em;
+}
+
+li {
+  line-height: 2em;
+}
+
+p, li {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  color: black;
+}
+
+a {
+  color: #a38325;
+}
+
+/** MENU */
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: url(../img/old_background.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: blur(2px);
+}
+
+body img {
+  margin: 0 20px;
+  padding: 0;
+}
+
+header {
+  margin-bottom: 0;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3c7869;
+  color: white;
+  filter: drop-shadow(0 0 4px black);
+}
+
+header #navigation {
+  margin: 0;
+  padding: 0 10px 0 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+header #navigation li {
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 25px;
+  font-style: normal;
+  color: beige;
+}
+
+header #navigation a {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  filter: drop-shadow(0px 0 1px black);
+}
+
+header #navigation a:hover {
+  margin: 0;
+  padding: 10px 20px;
+  background-color: #C7B06D;
+  border-radius: 15px;
+  color: #1D3331;
+}
+
+header #navigation .separator {
+  filter: drop-shadow(0px 0 1px #1D3331);
+}
+
+header #logo {
+  margin: 10px 0 0 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  filter: drop-shadow(1px 1px 1px #1D3331);
+}
+
+header #logo_title {
+  margin: 0;
+  padding: 0;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  background-color: transparent;
+  /**color: transparent;**/
+  color: #C7B06D;
+  filter: drop-shadow(0.3px 0.3px 0.5px #1D3331);
+
+  background-image: url(../img/flame-burning.png);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+footer #heading {
+  margin: 0;
+  padding: 10px 0 10px 0;
+  background: #1D3331;
+  color: #C7B06D;
+}
+
+footer #contact {
+  margin: 0;
+  padding: 20px 0 30px 0;
+  display: flex;
+  justify-content: space-around;
+  background: #111F1D;
+}
+
+footer #contact p {
+  margin: 0;
+  padding: 0;
+  color: lightcyan;
+}
+
+@media screen AND (max-width: 900px) {
+
+  header, footer #contact {
+    flex-direction: column;
+  }
+
+  header #navigation a {
+    padding: 5px 10px;
+  }
+
+  header #navigation a:hover {
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+  }
+
+  .flexbox_container img {
+    margin: 30px 0;
+  }
+}
+
+/** OTHER **/
+
+main#index {
+  margin: 0;
+  padding: 0;
+}
+
+.flexbox_container {
+  display: flex;
+  align-items: center
+}
+
+section {
+  margin: 30px;
+  padding: 25px;
+  background: #ffffffdb;
+  border-radius: 3px;
+}
+
+.recycling_symbols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+section .recycling_symbols .symbol {
+  margin: 0;
+  align-content: center;
+  justify-items: center;
+}
+
+.recycling_symbols .symbol img {
+  margin: 10px;
+}
+
+#ireland_img {
+  margin: 30px;
+  padding: 1px;
+  background-color: wheat;
+  filter: drop-shadow(4px 6px 8px black) saturate(60%);
+}
+
+@media screen AND (max-width: 900px) {
+
+  .flexbox_container {
+    flex-direction: column;
+  }
+
+  .recycling_symbols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  section {
+    margin: 0 30px;
+  }
+}
