@@ -34,12 +34,12 @@ This repository contains a responsive and professionally designed website create
 ## How to View the Project
 1. Clone the repository:
    ```bash
-   git clone https://
+   git clone https://github.com/smiichyk/EcoSort
    ```
 2. Open `index.html` in a browser to view the website locally.
 
 Alternatively, visit the live version hosted on GitHub Pages: 
-[Live Website](https://)
+[Live Website](https://github.com/smiichyk/EcoSort)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
