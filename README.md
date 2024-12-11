@@ -25,11 +25,14 @@ This repository contains a responsive and professionally designed website create
   - One image manipulated using **CSS filters**.
  
 ## Screenshots
-![header](screenshots/1.png)
 
-![sample](screenshots/2.1.png)
+### Header Example
+![header](screenshots/2.1.png)
+
+### Website Section
 ![sample](screenshots/2.2.png)
 ![sample](screenshots/2.3.png)
+![sample](screenshots/1.png)
 
 ## How to View the Project
 1. Clone the repository:
